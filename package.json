@@ -1,0 +1,23 @@
+{
+  "name": "nova-stt-google",
+  "version": "1.0.0",
+  "description": "<div align=\"center\"> <img src=\"https://github.com/HeyHeyChicken/NOVA-Blank-Skill/blob/master/resources/github-logo.svg\" alt=\"NOVA\" width=\"300\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeyHeyChicken/NOVA-SST-Google.git"
+  },
+  "author": "Antoine Duval",
+  "bugs": {
+    "url": "https://github.com/HeyHeyChicken/NOVA-STT-Google/issues"
+  },
+  "homepage": "https://github.com/HeyHeyChicken/NOVA-STT-Google#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^4.4.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
