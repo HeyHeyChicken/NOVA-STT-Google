@@ -52,12 +52,12 @@ class STTGoogle extends LIBRARIES.Skill{
       let transcription = response.results
           .map(result => result.alternatives[0].transcript)
           .join('\n');
-      if(transcription != ""){
+      //if(transcription != ""){
         transcription = transcription.charAt(0).toUpperCase() + transcription.slice(1);
         if(_callback !== undefined){
           _callback(transcription);
         }
-      }
+      //}
       LIBRARIES.FS.unlink(_path, function(){});
     })();
   }
