@@ -12,9 +12,9 @@ class STTGoogle extends LIBRARIES.Skill{
     const SELF = this;
 
     // Nous definissons le dossier racine du skill
-    SELF.RootPath = LIBRARIES.Path.join(_main.DirName, "/lib/skills/HeyHeyChicken_STT-Google/src/");
+    SELF.RootPath = LIBRARIES.Path.join(_main.DirName, "lib", "skills", "359089536", "src");
     // Nous definissons le dossier contenant le fichier json d'identification aux services Google
-    SELF.JsonPath = LIBRARIES.Path.join(SELF.RootPath, "identifiers/", "identifiers.json");
+    SELF.JsonPath = LIBRARIES.Path.join(SELF.RootPath, "identifiers", "identifiers.json");
 
     if(SELF.Settings.project_id != null){
       LIBRARIES.FS.writeFileSync(SELF.JsonPath, JSON.stringify(SELF.Settings));
