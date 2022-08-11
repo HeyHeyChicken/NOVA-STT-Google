@@ -1,0 +1,14 @@
+{
+	"worksOffline" : false,
+	"description" : {
+		"fr-FR": "Cette compétence permettra à votre assistant de comprendre votre voix avec le service STT de Google.",
+		"en-US": "This skill will allow your assistant to understand your voice with the Google's STT service."
+	},
+	"language": [
+		"fr-FR",
+		"en-US",
+		"es-ES",
+		"it-IT",
+		"de-DE"
+	]
+}
